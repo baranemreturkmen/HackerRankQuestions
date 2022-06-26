@@ -13,6 +13,7 @@ This repository contains hackerrank questions with solutions
 
 
 
+
 2-Counting Pairs
 
 ![CountingPairs-1](https://user-images.githubusercontent.com/43263983/175805633-f13710ce-b1d5-44d3-ab0c-9005f7f6c701.PNG)
