@@ -2,15 +2,17 @@
 This repository contains hackerrank questions with solutions
 
 1-Double on Match
+![DoubleonMatch-1](https://user-images.githubusercontent.com/43263983/175805612-6db8c011-c71b-48a7-9b0b-7f9d06104ea5.PNG)
+![DoubleonMatch-2](https://user-images.githubusercontent.com/43263983/175805615-0241ff1c-9fe5-48bf-8477-c8d63b763a4a.PNG)
+![DoubleonMatch-3](https://user-images.githubusercontent.com/43263983/175805616-ddf1a7d4-e4ad-49ce-909f-0e5e86b5fd3b.PNG)
+![DoubleonMatch-4](https://user-images.githubusercontent.com/43263983/175805619-3314255b-2b05-4371-bd66-8e6dfa23809c.PNG)
 
-![11](https://user-images.githubusercontent.com/43263983/175805354-968227bd-1498-4fda-9a35-6476425a7069.png)
-![12](https://user-images.githubusercontent.com/43263983/175805355-22023432-6380-447d-8776-1ede06b9553b.png)
-![13](https://user-images.githubusercontent.com/43263983/175805356-ab5f1c3d-615f-43f7-b700-49d31d91a2a4.png)
-![14](https://user-images.githubusercontent.com/43263983/175805357-13d5445b-6ed2-4e15-a533-87afd0341d51.png)
+
 
 2-Counting Pairs
-![21](https://user-images.githubusercontent.com/43263983/175805377-c693bbd7-26e7-4ea8-975d-9cf5c46298e4.png)
-![22](https://user-images.githubusercontent.com/43263983/175805379-ec5f76bf-9805-4b20-b5e1-22c608ee1006.png)
-![23](https://user-images.githubusercontent.com/43263983/175805381-85425732-8adb-4446-b8da-fa15da98cd65.png)
-![24](https://user-images.githubusercontent.com/43263983/175805383-c235d7fb-46a9-4c7d-9f60-577fe2b98432.png)
-![25](https://user-images.githubusercontent.com/43263983/175805384-49d52d9f-cfc3-487f-85ab-8480d408fb6a.png)
+
+![CountingPairs-1](https://user-images.githubusercontent.com/43263983/175805633-f13710ce-b1d5-44d3-ab0c-9005f7f6c701.PNG)
+![CountingPairs-2](https://user-images.githubusercontent.com/43263983/175805635-7915c80e-75dd-4537-8ba9-a5445e91f8d5.PNG)
+![CountingPairs-3](https://user-images.githubusercontent.com/43263983/175805637-74de6385-00bf-4939-9391-73ed14932927.PNG)
+![CountingPairs-4](https://user-images.githubusercontent.com/43263983/175805644-a1ef1250-aeb9-45cd-8f38-2260fedf988c.PNG)
+![CountingPairs-5](https://user-images.githubusercontent.com/43263983/175805646-cb8bba81-19cb-41a4-b293-43b2d2fd5723.PNG)
