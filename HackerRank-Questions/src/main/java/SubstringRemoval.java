@@ -4,7 +4,6 @@ import java.util.List;
 public class SubstringRemoval {
 
     static List<String> stringList = new ArrayList<>();
-    private static final long NANO_TO_MILLISECONDS_CONSTANT = 1_000_000;
 
     public static void main(String[] args) {
 
