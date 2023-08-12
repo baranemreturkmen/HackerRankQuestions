@@ -30,8 +30,11 @@ This repository contains hackerrank questions with solutions
 
 <img width="389" alt="SubstringRemoval1" src="https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/9227e29f-8f0a-40e8-91d6-31c366357576">
 
+
 <img width="342" alt="SubstringRemoval2" src="https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/4c37ebf0-ef9c-4483-84ab-8462ec63865e">
 
+
 <img width="329" alt="SubstringRemoval3" src="https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/c11bb146-f080-495c-bc76-9f1dbc3eb6e5">
+
 
 <img width="329" alt="SubstringRemoval4" src="https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/023c6eab-5c67-4411-8718-6f65b7bc8d31">
