@@ -30,11 +30,31 @@ This repository contains hackerrank questions with solutions
 
 <img width="389" alt="SubstringRemoval1" src="https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/9227e29f-8f0a-40e8-91d6-31c366357576">
 
-
 <img width="342" alt="SubstringRemoval2" src="https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/4c37ebf0-ef9c-4483-84ab-8462ec63865e">
-
 
 <img width="329" alt="SubstringRemoval3" src="https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/c11bb146-f080-495c-bc76-9f1dbc3eb6e5">
 
-
 <img width="329" alt="SubstringRemoval4" src="https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/023c6eab-5c67-4411-8718-6f65b7bc8d31">
+
+4-Reverse String
+
+Reverse String with different approaches.
+
+5-Anagrams
+
+<img width="350" alt="Ekran Resmi 2023-08-13 15 02 29" src="https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/0c378a4b-f6e8-4565-8966-1283f52375b3">
+
+<img width="351" alt="Ekran Resmi 2023-08-13 15 00 42" src="https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/465d725a-14e8-44ba-81ee-a1dabcb54011">
+
+<img width="320" alt="Ekran Resmi 2023-08-13 15 01 08" src="https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/ca0ddd88-dd9b-41d0-8201-d7fea82d29b7">
+
+<img width="278" alt="Ekran Resmi 2023-08-13 15 02 01" src="https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/86560432-4395-408d-95e7-c26dac6a6f7f">
+
+6-Calculate Smallest Positive Integer
+
+![Ekran Resmi 2023-08-13 14 57 32](https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/977c4caa-d90d-4fb7-85c5-6c0312db2ecd)
+
+7-Find Sum of Digits Twice
+
+<img width="608" alt="Ekran Resmi 2023-08-13 15 07 08" src="https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/636cbc1b-addb-4f30-912f-6d76869edcd2">
+
