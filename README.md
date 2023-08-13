@@ -52,6 +52,8 @@ Reverse String with different approaches.
 
 6-Calculate Smallest Positive Integer
 
+For better explanation: Smallest integer should be bigger than list minimum positive value.
+
 ![Ekran Resmi 2023-08-13 14 57 32](https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/977c4caa-d90d-4fb7-85c5-6c0312db2ecd)
 
 7-Find Sum of Digits Twice
