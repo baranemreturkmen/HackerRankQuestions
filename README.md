@@ -53,3 +53,8 @@ Reverse String with different approaches.
 6-Calculate Smallest Positive Integer
 
 ![Ekran Resmi 2023-08-13 14 57 32](https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/977c4caa-d90d-4fb7-85c5-6c0312db2ecd)
+
+7-Find Sum of Digits Twice
+
+<img width="608" alt="Ekran Resmi 2023-08-13 15 07 08" src="https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/636cbc1b-addb-4f30-912f-6d76869edcd2">
+
