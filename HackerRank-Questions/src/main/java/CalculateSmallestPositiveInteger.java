@@ -42,6 +42,7 @@ public class CalculateSmallestPositiveInteger {
         for(int i=0;i<5;i++){
             complexIntegerList.add((int) (100_000*Math.random()));
         }
+        System.out.println(complexIntegerList);
         integerLists.add(complexIntegerList);
 
         //Create more complex list :)
@@ -57,7 +58,7 @@ public class CalculateSmallestPositiveInteger {
 
     private static int calculateSmallestPositiveInteger(List<Integer> integerList){
         int minValue = integerList.stream().filter(v -> v>0).mapToInt(v -> v).min().orElse(0);
-        int maxValue = integerList.stream().mapToInt(v -> v).max().orElse(0);
+        int maxValue = integerList.stream().filter(v -> v>0).mapToInt(v -> v).max().orElse(0);
         int value = 0;
 
         if(maxValue>0){
