@@ -42,7 +42,7 @@ public class ReverseString {
 
         System.out.println("-------------------------------------");
 
-        System.out.println("Reverse String With StringBuffer");
+        System.out.println("Reverse String With Stack");
         System.out.println(reverseStringViaStack(reverse));
     }
 
