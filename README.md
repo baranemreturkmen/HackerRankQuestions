@@ -60,3 +60,7 @@ For better explanation: Smallest integer should be bigger than minimum positive 
 
 <img width="608" alt="Ekran Resmi 2023-08-13 15 07 08" src="https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/636cbc1b-addb-4f30-912f-6d76869edcd2">
 
+8-Separate A And B Count Attempts
+
+<img width="418" alt="Ekran Resmi 2023-08-20 19 19 45" src="https://github.com/baranemreturkmen/HackerRankQuestions/assets/43263983/6de7aed6-8836-4549-90e9-602aecaa1295">
+
