@@ -11,9 +11,13 @@ public class SeparateAAndBCountAttempts {
         for(String str: AAndBList){
             System.out.println(separateAAndBCountAttempts(str));
         }
+        System.out.println("-----------------------------------");
+
+        for(String str: AAndBList){
+            System.out.println(createSeparatedAAndBStrings(str));
+        }
     }
 
-    //TODO: Not count only, also convert the Strings balanced A and B format!
     public static int separateAAndBCountAttempts(String s){
 
         if (s == null || s.isEmpty()) return 0;
@@ -34,7 +38,42 @@ public class SeparateAAndBCountAttempts {
             }
         }
         return removals;
+    }
 
+    //TODO: Write second version of this method. Do not balanced. Delete the chars like question requirement.
+    //İf first half has more A's than B's convert first half to A's or vice versa.
+    public static String createSeparatedAAndBStrings(String s){
+
+        if (s == null || s.isEmpty()) return "String empty or null!";
+        else if(s.indexOf("ABA")==-1 && s.indexOf("BAB")==-1) return s;
+
+        String strFirstHalf;
+        String strSecondHalf;
+
+        if(s.length()%2!=0){
+            strFirstHalf = s.substring(0,(s.length()/2)+1);
+            strSecondHalf = s.substring((s.length()/2)+1);
+        }
+        else{
+            strFirstHalf = s.substring(0,(s.length()/2));
+            strSecondHalf = s.substring((s.length()/2));
+        }
+
+        long firstHalfACount = strFirstHalf.chars().mapToObj(e->(char)e).filter(e->e.equals('A')).count();
+        long firstHalfBCount = strFirstHalf.chars().mapToObj(e->(char)e).filter(e->e.equals('B')).count();
+
+        //Convert first half A
+        if(firstHalfACount>firstHalfBCount){
+           strFirstHalf = strFirstHalf.replace("B","A");
+           strSecondHalf = strSecondHalf.replace("A","B");
+        }
+        //Convert first half B
+        else{
+           strFirstHalf = strFirstHalf.replace("A","B");
+           strSecondHalf = strSecondHalf.replace("B","A");
+        }
+
+        return strFirstHalf+strSecondHalf;
     }
 
     public static void initializeAAndBStringList(){
