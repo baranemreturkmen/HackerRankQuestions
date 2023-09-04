@@ -6,6 +6,7 @@ public class Anagrams {
 
     static List<String> anagramList = new ArrayList<>();
 
+    //TODO: Calculate approximate times with util class method on all classes! Stay away from code duplication.
     public static void main(String[] args) {
 
         long startTime;
