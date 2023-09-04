@@ -56,6 +56,7 @@ public class Anagrams {
 
     /*TODO: Not only calculate the minimum attempt also add the method which converts the first
        half of the string to anagram.*/
+    //First Approach
     private static int findMinimumAttemptForAnagram(String str){
 
         int attemptNumber = 0;
@@ -88,6 +89,7 @@ public class Anagrams {
         return attemptNumber;
     }
 
+    //Second Approach
     private static int findMinimumAttemptForAnagramWithOnlyOneLoop(String str){
 
         int attemptNumber = 0;
@@ -115,6 +117,7 @@ public class Anagrams {
         return attemptNumber;
     }
 
+    //Third Approach
     private static int findMinimumAttemptForAnagramWithOnlyOneLoopWithoutLists(String str){
 
         int attemptNumber = 0;
@@ -122,6 +125,7 @@ public class Anagrams {
         String strFirstHalf = str.substring(0,str.length()/2);
         String strSecondHalf = str.substring(str.length()/2);
 
+        //Some educational codes with stream api
         /*if(strFirstHalf.chars().mapToObj(v-> (char) v).collect(Collectors.toSet())
                 .equals(strSecondHalf.chars().mapToObj(v-> (char) v).collect(Collectors.toSet()))){
             System.out.println("No need to change!");
@@ -136,9 +140,33 @@ public class Anagrams {
         }*/
         //3
 
-        //TODO: Sadece secondHalf üzerinden bakarak olmaz. Set yaz. Hangi half'da ki elaman sayısı az ise set olunca onun üzerinden baktır bu daha doğru sonuç olacaktır.
+        /*Eğer birbirini daha fazla tekrar eden rakamların olduğu yarıda dolaşıp diğer yarıda var mı yok mu diye
+        * bakarsam hatalı sonuç elde ederim mesela 123122 örneği. 122 olan yarıda dolaşıp 123 olan yarıda bu değerler
+        * var mı yok mu diye bakarsam 0 elde ederim. Ama anagram için 1 değişiklik değerini yakalamak zorundayım.
+        * Bundan dolayı küme yapısı kullandık. Küme elemanı olarak en fazla olan yarıda dolaşılacak az olan üzerinde
+        * var mı yok mu kontrolü gerçekleştirilecek. Bu şekilde doğru sonuç elde edilecek. Bu algoritmanın eksikliği
+        * zayıf yanı bu oldu. Maalesef en başta düşünüldüğü gibi tam olarak liste yapısından kaçamıyoruz. Belki algoritmada
+        * liste yapısı yok ama stream api map yapıları set vs. var. Tam olarak istenilen çözüm değil bu. Fakat eklenen tüm
+        * bu değişiklikler zamanlama açısından bir şey değiştirmedi. Süre hemen hemen aynı diyebiliriz üstelik nano
+        * saniyerler cinsinden çalışmamıza rağmen.*/
+
+        String x;
+        String y;
+
+        if(strFirstHalf.chars()
+                .mapToObj(v-> (char) v)
+                .collect(Collectors.toSet())
+                .size()> strSecondHalf.chars().mapToObj(v-> (char) v).collect(Collectors.toSet()).size()){
+            x = strFirstHalf;
+            y = strSecondHalf;
+        }
+        else{
+            x = strSecondHalf;
+            y = strFirstHalf;
+        }
+
         for(int i=0;i<strFirstHalf.length();i++){
-            if(!strSecondHalf.contains(strFirstHalf.substring(i,i+1))){
+            if(!y.contains(x.substring(i,i+1))){
                 attemptNumber+=1;
             }
         }
