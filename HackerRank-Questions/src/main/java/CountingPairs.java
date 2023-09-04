@@ -92,6 +92,7 @@ public class CountingPairs {
         HashSet<Integer> numbersSet = new HashSet<>(numbers);
         List<Integer> numbersOrdered;
         numbersOrdered = numbersSet.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
+        //TODO: Burada ki accumulate ne işe yarıyor. Neden yazılmış?
         BinaryOperator<Integer> accumulate = (acc, v) -> acc + v;
         int checkNegativeElementExists = numbers.stream().filter(x->x<0).reduce(0,accumulate);
 

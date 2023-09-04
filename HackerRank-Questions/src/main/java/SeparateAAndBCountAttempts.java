@@ -23,14 +23,14 @@ public class SeparateAAndBCountAttempts {
         if (s == null || s.isEmpty()) return 0;
 
         int countB = 0; //keep a count of Bs
-        int removals = 0; //keep a count of removed As
+        int removals = 0; //keep a count of removed As or Bs
 
         for (int i = 0; i < s.length(); i++) {
 
             //For this block I made my own 'AB' catcher!
             if (s.charAt(i) == 'A') {
                 if (countB > 0) { // only if there are Bs before this A
-                    ++removals; // remove this A
+                    ++removals; // remove this A or B
                     --countB; // and decrement the Bs count
                 }
             } else {

@@ -135,6 +135,7 @@ public class Anagrams {
         }*/
         //3
 
+        //TODO: Sadece secondHalf üzerinden bakarak olmaz. Set yaz. Hangi half'da ki elaman sayısı az ise set olunca onun üzerinden baktır bu daha doğru sonuç olacaktır.
         for(int i=0;i<strFirstHalf.length();i++){
             if(!strSecondHalf.contains(strFirstHalf.substring(i,i+1))){
                 attemptNumber+=1;
